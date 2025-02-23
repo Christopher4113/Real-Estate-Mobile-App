@@ -1,7 +1,7 @@
 import {  createContext, ReactNode, useContext } from "react";
 import { useAppwrite } from "./useAppwrite";
 import {getCurrentUser} from './appwrite'
-import { Redirect } from "expo-router";
+
 interface User {
     $id: string;
     name: string;
